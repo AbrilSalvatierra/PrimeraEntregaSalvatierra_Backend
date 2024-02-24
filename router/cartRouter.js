@@ -7,8 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const cartRouter = express.Router();
-const cartsFilePath = path.resolve(__dirname, '../data/carts.json');
-const productsFilePath = path.resolve(__dirname, '../data/products.json');
+const cartsFilePath = path.resolve(__dirname, 'C:\\Users\\salva\\OneDrive\\Escritorio\\Backend\\PrimeraEntregaSalvatierra\\data\\carts.json');
+const productsFilePath = path.resolve(__dirname, 'C:\\Users\\salva\\OneDrive\\Escritorio\\Backend\\PrimeraEntregaSalvatierra\\data\\products.json');
 
 //Funciones de los carritos
 async function loadCartsFromFile() {

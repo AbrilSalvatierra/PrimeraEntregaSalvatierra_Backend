@@ -2,7 +2,7 @@ import express from 'express';
 import ProductManager from '../src/ProductManager.js';
 
 const productsRouter = express.Router();
-const productManager = new ProductManager('../data/products.json');
+const productManager = new ProductManager('C:\\Users\\salva\\OneDrive\\Escritorio\\Backend\\PrimeraEntregaSalvatierra\\data\\products.json');
 
 
 productsRouter.get('/', async (req, res) => {

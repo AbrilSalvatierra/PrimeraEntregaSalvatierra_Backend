@@ -3,8 +3,8 @@ import path from 'path';
 
 class ProductManager {
     constructor(filePath) {
-        const __dirname = path.dirname(new URL(import.meta.url).pathname);
-        this.path = path.resolve(__dirname, '../data/products.json', filePath);
+        this.path = filePath;
+        this.products = [];
         this.loadProductsFromFile();
     }
 
@@ -94,6 +94,6 @@ class ProductManager {
     }
 }
 
-const productManager = new ProductManager('./data/products.json');
+const productManager = new ProductManager('C:\\Users\\salva\\OneDrive\\Escritorio\\Backend\\PrimeraEntregaSalvatierra\\data\\products.json');
 
 export default ProductManager;

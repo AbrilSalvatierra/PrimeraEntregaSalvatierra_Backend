@@ -4,6 +4,8 @@
     "title": "Biblioteca Moderna Estantería Alta De Melamina 192 cm De Alto",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "abc123",
     "stock": 10
@@ -13,6 +15,8 @@
     "title": "Cajoneras Altas",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "def456",
     "stock": 10
@@ -22,6 +26,8 @@
     "title": "Escritorio Industrial",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "ghi789",
     "stock": 10
@@ -31,6 +37,8 @@
     "title": "Puff",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "jkl123",
     "stock": 10
@@ -40,6 +48,8 @@
     "title": "Sillon 2 piezas",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula.",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "mno456",
     "stock": 10
@@ -49,6 +59,8 @@
     "title": "Mesa Dubai",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula.",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "pqr789",
     "stock": 10
@@ -58,6 +70,8 @@
     "title": "Biblioteca Colonial",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula.",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "stu123",
     "stock": 10
@@ -67,6 +81,8 @@
     "title": "Mesa comedor con 6 sillas",
     "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula.",
     "price": 106200,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "vwx456",
     "stock": 10
@@ -76,6 +92,8 @@
     "title": "Silla Gamer ultra comoda y liviana",
     "description": "Put Lorem ipsum dolor sit amet consectetur adipiscing elit diam, inceptos senectus netus tellus taciti curae eros dictum ligula",
     "price": 89000,
+    "status": true,
+    "category":"muebles",
     "thumbnail": "https://dummyimage.com/400x200",
     "code": "yza789",
     "stock": 10
