@@ -58,8 +58,7 @@ async function saveCartsToFile(carts) {
 cartRouter.post('/', async (req, res) => {
     try {
         const newCart = {
-            id: Math.floor(Math.random() * 1000), // Generamos un ID aleatorio para el carrito
-            products: []
+            id: Math.floor(Math.random() * 1000),
         };
         const carts = await loadCartsFromFile();
         await saveCartsToFile([...carts, newCart]);
@@ -104,7 +103,6 @@ cartRouter.post('/:cid/product/:pid', async (req, res) => {
             return;
         }
 
-        // Agrega el producto al carrito
         const existingProductIndex = cart.products.findIndex(product => product.id === productId);
         if (existingProductIndex !== -1) {
             cart.products[existingProductIndex].quantity += 1;
@@ -114,7 +112,6 @@ cartRouter.post('/:cid/product/:pid', async (req, res) => {
 
         await saveCartsToFile(carts);
 
-        // Devuelve los detalles del producto agregado al carrito
         const addedProductDetails = cart.products.find(product => product.id === productId);
         res.status(201).json(addedProductDetails);
     } catch (error) {

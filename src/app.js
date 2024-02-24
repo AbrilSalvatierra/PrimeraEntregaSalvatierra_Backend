@@ -7,13 +7,9 @@ import ProductManager from './ProductManager.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-console.log(import.meta.url)
 const app = express();
 const PORT = process.env.PORT || 8080;
 const productsFilePath = 'C:\\Users\\salva\\OneDrive\\Escritorio\\Backend\\PrimeraEntregaSalvatierra\\data\\products.json';
-
-//const productsFilePath = path.resolve(__dirname, '../data/products.json');
-console.log(productsFilePath);
 const productManager = new ProductManager(productsFilePath); 
 
 app.use(express.json());
